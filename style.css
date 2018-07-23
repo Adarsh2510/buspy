@@ -4,20 +4,9 @@ body {
 
  }
 @import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Abel|Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Abel|Advent+Pro:100,400|Open+Sans:300');
 
-@font-face{
-  font-family: abel regular;
-  src: url("abel-regular.ttf");
-}
-@font-face{
-  font-family: adventpro;
-  src: url("adventpro-regular.ttf");
-}
-@font-face{
-  font-family: open sans;
-  src: url("opensans-light.ttf");
-
-}
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -78,7 +67,7 @@ div.menu {
 margin: 0;
 }
 .hello{
-  font-family: abel;
+  font-family: 'Abel', sans-serif;
   font-size: 70px;
 }
 
@@ -125,7 +114,7 @@ margin: 0;
 }
 
   .banner{
-    font-family: adventpro;
+    font-family: 'Advent Pro', sans-serif;
     font-size:40px;
    float: right;
     margin-right: 10px;
@@ -138,7 +127,7 @@ margin: 0;
   .c2{
     height: 800px;
    background-color: white;
-   font-family: open sans;
+   font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     color: #3089d1;
     text-align: center;
@@ -176,11 +165,11 @@ margin: 0;
         width: 100%;
     text-align: center;
     color: #372a00;
-    font-family: open sans;
+    font-family: 'Open Sans', sans-serif;
   }
   .cardtext
   {
-    font-family: abel;
+    font-family: 'Abel', sans-serif;
         text-align: center;
     color: #757575;
     line-height: 26px;
@@ -190,7 +179,7 @@ margin: 0;
   }
   .bimg{
   
-    margin-bottom: 20px
+    margin-bottom: 20px;
     margin-right:10px;
     padding-bottom: 10px; 
   }
@@ -228,7 +217,7 @@ top: 0;
   z-index: -1;  }
   [class="c2"]{
     background-color: white;
-   font-family: open sans;
+   font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     color: #3089d1;
     text-align: center;
@@ -244,7 +233,7 @@ top: 0;
    
     text-align: center;
   padding-top: 20%;
-    font-family: open sans;
+    font-family: 'Open Sans', sans-serif;
     font-size:40px;
    color: white;
     text-decoration-style: bold;
@@ -269,7 +258,7 @@ background-repeat: no-repeat;
 right: 0;
   }
 .banner4{
-   font-family: adventpro;
+   font-family: 'Advent Pro', sans-serif;
     font-size:40px;
    float: right;
     margin-right: 5%;
